@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+StagingRepository-URL: http://nexus.bsl.eur.adobe.com/service/local/st
+ aging/deploy/maven2
+SnapshotRepository-URL: http://nexus.bsl.eur.adobe.com/content/reposit
+ ories/dev-snapshots
+Built-By: sanjupr
+RelEngRepository-URL: http://nexus.bsl.eur.adobe.com/content/repositor
+ ies/releases
+RelEngRepository-Id: releases
+Tool: Bnd-1.15.0
+SnapshotRepository-Id: dev-snapshots
+SnapshotRepository-Name: Adobe Dev Snapshots
+Bundle-Name: custom connect - Components
+Created-By: Apache Maven Bundle Plugin
+StagingRepository-Name: Adobe Releases
+StagingRepository-Id: releases
+Build-Jdk: 1.7.0_79
+Bundle-Version: 0.0.1.SNAPSHOT
+Bnd-LastModified: 1435590352358
+Bundle-ManifestVersion: 2
+Bundle-Description: Web components bundle for custom connect
+Import-Package: javax.servlet,org.apache.sling.api;version="[2.2,3)",o
+ rg.apache.sling.api.request;version="[2.2,3)",org.apache.sling.api.re
+ source;version="[2.1,3)",org.apache.sling.api.servlets;version="[2.1,
+ 3)",org.slf4j;version="[1.5,2)"
+RelEngRepository-Name: Adobe Releases
+Bundle-SymbolicName: com.adobe.custom.connect.url-shortner.components
+
